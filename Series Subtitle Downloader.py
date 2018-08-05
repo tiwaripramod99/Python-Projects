@@ -1,3 +1,6 @@
+#A python script to download subtitles from a certain url which is already assigned in the program,
+#all you have to do is get the series's base url corresponding to html portion only and poof, it's done.
+
 from bs4 import BeautifulSoup
 import urllib.request
 
