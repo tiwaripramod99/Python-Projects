@@ -1,8 +1,6 @@
 language: python
 python:
-  - "2.7"
-#Pypy
-  - "pypy"
+  - "3.7"
 install:
   - pip install bs4
 script: python Series Subtitle Downloader.py
