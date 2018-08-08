@@ -4,12 +4,12 @@
 from bs4 import BeautifulSoup
 import urllib.request
 
-series = input("Enter Series Name: ")
-season = input("Enter Season Number: ")
-episodes = int(input("Enter total number of episodes: "))
+series = "Flash"
+season = "3"
+episodes = 23
 
 base = "http://www.tvsubtitles.net/"
-index = input("Enter .html part of url: ")
+index = "tvshow-1568-3.html"
 url = base+index
 
 data = urllib.request.urlopen(url).read()
