@@ -3,4 +3,4 @@ python:
   - "3.6.0"
 install:
   - pip install beautifulsoup4
-script: python Series Subtitle Downloader.py < testing.txt
+script: python Series_scrape.py < testing.txt
